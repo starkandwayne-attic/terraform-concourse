@@ -1,5 +1,6 @@
 .floo
 .flooignore
+terraform.tfvars
 #*
 *.o
 *.pyc
@@ -8,3 +9,12 @@ extern/
 node_modules/
 tmp
 vendor/
+*.tfvars
+*.tfplan
+*.tfstate
+*.tfstate.backup
+crash.log
+.terraform/
+provision/provision.sh
+.DS_Store
+*.swp
